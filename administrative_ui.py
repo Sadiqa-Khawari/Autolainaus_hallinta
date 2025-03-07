@@ -26,7 +26,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(1009, 585)
+        MainWindow.resize(1009, 814)
         icon = QIcon(QIcon.fromTheme(u"preferences-desktop-accessibility"))
         MainWindow.setWindowIcon(icon)
         self.actionMuokkaa = QAction(MainWindow)
@@ -37,7 +37,7 @@ class Ui_MainWindow(object):
         self.centralwidget.setObjectName(u"centralwidget")
         self.tabWidget = QTabWidget(self.centralwidget)
         self.tabWidget.setObjectName(u"tabWidget")
-        self.tabWidget.setGeometry(QRect(0, 0, 971, 551))
+        self.tabWidget.setGeometry(QRect(0, 0, 971, 741))
         font = QFont()
         font.setPointSize(10)
         self.tabWidget.setFont(font)
@@ -51,13 +51,13 @@ class Ui_MainWindow(object):
         if (self.registeredPersonsTableWidget.rowCount() < 10000):
             self.registeredPersonsTableWidget.setRowCount(10000)
         self.registeredPersonsTableWidget.setObjectName(u"registeredPersonsTableWidget")
-        self.registeredPersonsTableWidget.setGeometry(QRect(20, 240, 931, 241))
+        self.registeredPersonsTableWidget.setGeometry(QRect(10, 260, 931, 241))
         self.registeredPersonsTableWidget.viewport().setProperty(u"cursor", QCursor(Qt.CursorShape.ArrowCursor))
         self.registeredPersonsTableWidget.setRowCount(10000)
         self.registeredPersonsTableWidget.setColumnCount(6)
         self.registeredPersonsLabel = QLabel(self.lenderTab)
         self.registeredPersonsLabel.setObjectName(u"registeredPersonsLabel")
-        self.registeredPersonsLabel.setGeometry(QRect(20, 220, 131, 16))
+        self.registeredPersonsLabel.setGeometry(QRect(20, 230, 131, 16))
         self.savePersonPushButton = QPushButton(self.lenderTab)
         self.savePersonPushButton.setObjectName(u"savePersonPushButton")
         self.savePersonPushButton.setGeometry(QRect(310, 180, 71, 23))
@@ -216,7 +216,7 @@ class Ui_MainWindow(object):
 
         self.layoutWidget_2 = QWidget(self.vehicleTab)
         self.layoutWidget_2.setObjectName(u"layoutWidget_2")
-        self.layoutWidget_2.setGeometry(QRect(120, 0, 169, 242))
+        self.layoutWidget_2.setGeometry(QRect(120, 0, 169, 244))
         self.vehicleInputsVerticalLayout = QVBoxLayout(self.layoutWidget_2)
         self.vehicleInputsVerticalLayout.setObjectName(u"vehicleInputsVerticalLayout")
         self.vehicleInputsVerticalLayout.setContentsMargins(0, 0, 0, 0)
@@ -292,7 +292,7 @@ class Ui_MainWindow(object):
         if (self.vehicleCatalogTableWidget.rowCount() < 99):
             self.vehicleCatalogTableWidget.setRowCount(99)
         self.vehicleCatalogTableWidget.setObjectName(u"vehicleCatalogTableWidget")
-        self.vehicleCatalogTableWidget.setGeometry(QRect(10, 270, 831, 241))
+        self.vehicleCatalogTableWidget.setGeometry(QRect(10, 270, 941, 241))
         self.vehicleCatalogTableWidget.viewport().setProperty(u"cursor", QCursor(Qt.CursorShape.ArrowCursor))
         self.vehicleCatalogTableWidget.setVerticalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAsNeeded)
         self.vehicleCatalogTableWidget.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAlwaysOff)
@@ -412,7 +412,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.tabWidget.setCurrentIndex(2)
+        self.tabWidget.setCurrentIndex(1)
 
 
         QMetaObject.connectSlotsByName(MainWindow)

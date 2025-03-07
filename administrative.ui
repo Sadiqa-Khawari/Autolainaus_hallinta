@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1009</width>
-    <height>585</height>
+    <height>814</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,7 +23,7 @@
       <x>0</x>
       <y>0</y>
       <width>971</width>
-      <height>551</height>
+      <height>741</height>
      </rect>
     </property>
     <property name="font">
@@ -35,7 +35,7 @@
      <cursorShape>ArrowCursor</cursorShape>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="lenderTab">
      <property name="cursor">
@@ -47,8 +47,8 @@
      <widget class="QTableWidget" name="registeredPersonsTableWidget">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>240</y>
+        <x>10</x>
+        <y>260</y>
         <width>931</width>
         <height>241</height>
        </rect>
@@ -10073,7 +10073,7 @@
       <property name="geometry">
        <rect>
         <x>20</x>
-        <y>220</y>
+        <y>230</y>
         <width>131</width>
         <height>16</height>
        </rect>
@@ -10384,7 +10384,7 @@ color: rgb(255, 255, 255);</string>
         <x>120</x>
         <y>0</y>
         <width>169</width>
-        <height>242</height>
+        <height>244</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="vehicleInputsVerticalLayout">
@@ -10530,7 +10530,7 @@ color: rgb(255, 255, 255);</string>
        <rect>
         <x>10</x>
         <y>270</y>
-        <width>831</width>
+        <width>941</width>
         <height>241</height>
        </rect>
       </property>
