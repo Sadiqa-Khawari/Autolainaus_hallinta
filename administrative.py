@@ -264,15 +264,14 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         if userFilter == '':
             userFilterString = ''
         else:
-            f"AND hetu = '{userFilter}'"
+            userFilterString = f"AND hetu = '{userFilter}'"
             
         if registerFilter == '':
             registerFilterString = ''
         else:
-            f"AND rekisterinumero = '{registerFilter}'"
+            registerFilterString =  f"AND rekisterinumero = '{registerFilter}'"
 
         sqlFilter = dateFilterSring + userFilterString + registerFilterString
-        print(sqlFilter)
         tableData = dbConnection.filterColumsFromTable(reportName,['*'], sqlFilter)
     
         # Tyhjennetään vanhat tiedot käyttöliittymästä ennen uusien lukemista tietokannasta
@@ -571,7 +570,7 @@ class SaveSettingsDialog(QtWidgets.QDialog, Settings_Dialog):
         msgBox = QtWidgets.QMessageBox()
         msgBox.setIcon(QtWidgets.QMessageBox.Information)
         msgBox.setWindowTitle('Luodaan uusi asetustiedosto')
-        msgBox.setText('Syötä kaikkien kenttien tiedot!')
+        msgBox.setText('Syötä kaikkien kenttien tiedot ja käynnistä sovellus uudelleen!')
         msgBox.setStandardButtons(QtWidgets.QMessageBox.Ok)
         msgBox.exec() # Luodaan Msg Box:lle oma event loop
 
