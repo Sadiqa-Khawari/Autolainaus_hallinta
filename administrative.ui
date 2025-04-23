@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1009</width>
-    <height>585</height>
+    <width>1040</width>
+    <height>827</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -35,7 +35,7 @@
      <cursorShape>ArrowCursor</cursorShape>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="lenderTab">
      <property name="cursor">
@@ -10384,7 +10384,7 @@ color: rgb(255, 255, 255);</string>
         <x>120</x>
         <y>0</y>
         <width>169</width>
-        <height>245</height>
+        <height>246</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="vehicleInputsVerticalLayout">
@@ -10477,7 +10477,7 @@ color: rgb(255, 255, 255);</string>
       <property name="geometry">
        <rect>
         <x>300</x>
-        <y>200</y>
+        <y>220</y>
         <width>101</width>
         <height>25</height>
        </rect>
@@ -10672,10 +10672,10 @@ color: rgb(255, 255, 255);</string>
      <widget class="QLabel" name="vehiclePictureLabel">
       <property name="geometry">
        <rect>
-        <x>440</x>
-        <y>10</y>
-        <width>281</width>
-        <height>211</height>
+        <x>660</x>
+        <y>0</y>
+        <width>301</width>
+        <height>221</height>
        </rect>
       </property>
       <property name="frameShape">
@@ -10694,8 +10694,8 @@ color: rgb(255, 255, 255);</string>
      <widget class="QPushButton" name="removeVehiclePushButton">
       <property name="geometry">
        <rect>
-        <x>300</x>
-        <y>0</y>
+        <x>540</x>
+        <y>220</y>
         <width>101</width>
         <height>25</height>
        </rect>
@@ -10715,6 +10715,32 @@ color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Poista</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="removeVehiclePushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>220</y>
+        <width>101</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 170, 0);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Ei lainattavissa</string>
       </property>
      </widget>
     </widget>
@@ -21002,7 +21028,7 @@ color: rgb(255, 255, 255);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1009</width>
+     <width>1040</width>
      <height>33</height>
     </rect>
    </property>
