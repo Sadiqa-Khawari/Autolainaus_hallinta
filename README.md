@@ -1,3 +1,6 @@
 Rasekon auto-osaston autojen lainaamiseen tarkoitettu PySide6-sovellus. Sovelluksen hallintakäyttöliittymään liittyvät osat.
 
 Ohjelman ovat suunnitelleet ja tuottaneet Rasekon tieto- ja viestintätekniikan jatkuvan haun opiskelijat.
+`pyside6-uic administrative.ui -o administrative.py`     `.ui` file to `.py` file
+ 
+ `Python Qt Preview` ---->  `Qt for Python`

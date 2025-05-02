@@ -4,8 +4,8 @@
  <print-settings numCopies="1" zoom="1.0" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
  <project-data-sources>
   <data-source id="DS0">
+   <property key="Logical" value="autolainaus" />
    <property key="Connection Type" value="PostgreSQL" />
-   <property key="Logical" value="(Target Database)" />
    <property key="JDBC URL" value="jdbc:postgresql://localhost:5432/autolainaus" />
    <property key="UID" value="postgres" />
    <property key="PWD" value="Q2werty7" />
@@ -17,7 +17,7 @@
   </data-source>
   <data-source id="DS0">
    <property key="Connection Type" value="PostgreSQL" />
-   <property key="Logical" value="(Target Database)" />
+   <property key="Logical" value="autolainaus" />
    <property key="JDBC URL" value="jdbc:postgresql://localhost:5432/autolainaus" />
    <property key="UID" value="postgres" />
    <property key="PWD" value="Q2werty7" />
@@ -29,7 +29,7 @@
   </data-source>
  </project-data-sources>
  <source-databases>
-  <database id="DB0" populated="true" UUID="faa2aa9d-3c88-4e4d-b3e2-6bc295b35755" dbcs-ref="DS0" name="(Target Database)" physicalName="autolainaus" >
+  <database id="DB0" populated="true" UUID="faa2aa9d-3c88-4e4d-b3e2-6bc295b35755" dbcs-ref="DS0" name="autolainaus" physicalName="autolainaus" >
    <catalog id="CAT1" populated="true" UUID="ccb2e0b0-9211-4db1-9ff0-41afc7963656" name="autolainaus" nativeTerm="database" physicalName="autolainaus" >
     <schema id="SCH2" populated="false" UUID="e3d58624-e232-4d8f-9368-13cea1d11f0d" name="information_schema" nativeTerm="schema" physicalName="information_schema" >
     </schema>
