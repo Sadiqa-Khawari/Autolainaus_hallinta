@@ -1,0 +1,1 @@
+Tämän sovelluksen dokumentiti löytyvät repositorion Wiki-sivuita. Hakemistossa 'pictures' on 
