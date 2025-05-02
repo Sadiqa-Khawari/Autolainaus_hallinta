@@ -1,1 +1,1 @@
-Tämän sovelluksen dokumentiti löytyvät repositorion Wiki-sivuita. Hakemistossa 'pictures' on 
+Tämän sovelluksen dokumentiti löytyvät repositorion Wiki-sivuita. Hakemistossa 'pictures' on on Wikisivuilla käytetyt kuvat ja Draw.io-kaaviot.
