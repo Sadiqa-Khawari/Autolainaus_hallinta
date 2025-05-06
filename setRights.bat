@@ -1,0 +1,2 @@
+icacls  "c:\Program Files\Python313\AutolainausHallinta\settings.json" /grant "DESKTOP-LD9Q1D1\Users":(m,wdac)
+icacls  "c:\Program Files\Python313\AutolainausHallinta\currentCar.png" /grant "DESKTOP-LD9Q1D1\Users":(m,wdac)
