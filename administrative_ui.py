@@ -624,3 +624,4 @@ class Ui_MainWindow(object):
         self.menuAsetukset.setTitle(QCoreApplication.translate("MainWindow", u"Asetukset", None))
         self.menuOhje.setTitle(QCoreApplication.translate("MainWindow", u"Ohje", None))
     # retranslateUi
+
