@@ -35,7 +35,6 @@ COMMENT ON COLUMN public.lainaaja.sahkoposti
 COMMENT ON COLUMN public.lainaaja.ajokorttiluokka
     IS 'Esim. AB tai ABCE';
 
-
 -- Table: public.ajoneuvotyyppi
 
 -- DROP TABLE IF EXISTS public.ajoneuvotyyppi;
@@ -53,7 +52,6 @@ REVOKE ALL ON TABLE public.ajoneuvotyyppi FROM autolainaus;
 GRANT SELECT ON TABLE public.ajoneuvotyyppi TO autolainaus;
 
 GRANT ALL ON TABLE public.ajoneuvotyyppi TO postgres;
-
 
 -- Table: public.auto
 
@@ -90,7 +88,6 @@ GRANT ALL ON TABLE public.auto TO postgres;
 
 COMMENT ON TABLE public.auto
     IS 'Ajoneuvon perustiedot';
-
 
 -- Table: public.tarkoitus
 
@@ -202,7 +199,6 @@ ALTER TABLE public.vapaana
 GRANT SELECT ON TABLE public.vapaana TO autolainaus;
 GRANT ALL ON TABLE public.vapaana TO postgres;
 
-
 -- View: public.ajopaivakirja
 
 -- DROP VIEW public.ajopaivakirja;
@@ -257,5 +253,3 @@ COMMENT ON VIEW public.autoittain
 
 GRANT SELECT ON TABLE public.autoittain TO autolainaus;
 GRANT ALL ON TABLE public.autoittain TO postgres;
-
-
